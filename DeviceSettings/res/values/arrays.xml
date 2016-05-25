@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="camera_switch_entries_klte">
+        <item>Nubia Camera</item>
+        <item>MIUI Camera</item>
+        <item>Google Camera</item>
+        <item>CyanogenMod Camera</item>
+    </string-array>
+    <string-array name="camera_switch_values_klte">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="home_layout_switch_entries">
+        <item>4x5</item>>
+        <item>4x6</item>>
+        <item>5x5</item>>
+    </string-array>
+    <string-array name="home_layout_switch_values">
+        <item>0</item>>
+        <item>1</item>>
+        <item>2</item>>
+    </string-array>
+
+<!--GaHoKwan ADD-->
+    <!--mDNle-->
+    <string-array name="mdnie_mode_entries">
+        <item>Dynamic</item>
+        <item>Standard (Default)</item>
+        <item>Natural</item>
+        <item>Movie</item>
+    </string-array>
+    <string-array name="mdnie_mode_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="mdnie_scenario_entries">
+        <item>UI (Default)</item>
+        <item>Video</item>
+        <item>Video Warm</item>
+        <item>Video Cold</item>
+        <item>Camera</item>
+        <item>Navigation</item>
+        <item>Gallery</item>
+        <item>VT</item>
+        <item>Browser</item>
+        <item>eBook</item>
+        <item>Email</item>
+    </string-array>
+    <string-array name="mdnie_scenario_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!--KCAL Color-->
+    <string-array name="kcal_entries">
+        <item>Normal (Default)</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+    </string-array>
+    <string-array name="kcal_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!--KCAL Sat-->
+    <string-array name="kcal_sat_entries">
+        <item>Normal (Default)</item>
+        <item>Grey Scale</item>
+        <item>Gorgeous Mode</item>
+    </string-array>
+    <string-array name="kcal_sat_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--Wakeup Mode-->
+    <string-array name="wakeup_mode_entries">
+        <item>Disable (Default)</item>
+        <item>Swipe</item>
+        <item>Swipe (When Charging)</item>
+        <item>Double Tap</item>
+        <item>Double Tap (When Charging)</item>
+        <item>Both</item>
+        <item>Both (When Charging)</item>
+    </string-array>
+    <string-array name="wakeup_mode_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <!--LED Intensity-->
+    <string-array name="led_intensity_entries">
+        <item>40 (Default)</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="led_intensity_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!--LED Fade-->
+    <string-array name="led_fade_entries">
+        <item>Blinking (Default)</item>
+        <item>Fading</item>
+    </string-array>
+    <string-array name="led_fade_entries_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!--Running Mode-->
+    <string-array name="running_mode_entries">
+        <item>Battery Save</item>
+        <item>Standard (Default)</item>
+        <item>Performance</item>
+    </string-array>
+    <string-array name="running_mode_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--KeyLight-->
+    <string-array name="keylight_entries">
+        <item>Disable</item>
+        <item>Touch LED when touch screen (Default)</item>
+        <item>Touch LED when touch key</item>
+    </string-array>
+    <string-array name="keylight_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--KeyLight Timeout-->
+    <string-array name="keylight_timeout_entries">
+        <item>1 Second</item>
+        <item>5 Second (Default)</item>
+        <item>10 Second</item>
+        <item>20 Second</item>
+        <item>Alaways on</item>
+    </string-array>
+    <string-array name="keylight_timeout_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+<!--GaHoKwan END-->
+</resources>

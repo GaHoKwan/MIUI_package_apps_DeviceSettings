@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">其他附加设置</string>
+    <string name="camera_sound_title">相机声音</string>
+    <string name="camera_sound_summary_off">相机声音已禁用！</string>
+    <string name="camera_sound_summary_on">相机声音已启用！</string>
+    <string name="warning_title">警告！</string>
+    <string name="warning_summary">停用相机声音在某些国家属于违法行为，请严谨遵守当地法律！</string>
+    <string name="double_tap_home_to_sleep_title">双击Home锁屏</string>
+    <string name="boeffla_settings_title">Boeffla内核设置</string>
+    <string name="camera_switch_title">相机切换</string>
+    <string name="about_title">关于</string>
+    <string name="camera_switch_google_summary">当前相机为谷歌相机</string>
+    <string name="camera_switch_nubia_summary">当前相机为努比亚相机</string>
+    <string name="camera_switch_miui_summary">当前相机为MIUI相机</string>
+    <string name="camera_switch_cm_summary">当前相机为CM相机</string>
+    <string name="home_layout_switch_title">桌面布局</string>
+    <string name="density_error">警告，输入密度值超出范围，请重新输入</string>
+    <string name="density_title">屏幕密度</string>
+    <string name="density_edit_title">屏幕密度修改</string>
+    <string name="density_edit_message">请输入一个合理的密度值(%1$s)\n修改密度值可能导致系统频发FC，界面错位等，请谨慎修改！</string>
+    <string name="density_summary">当前密度值为%1$s，默认密度值为%2$s</string>
+    <string name="dialog_ok">应用成功，是否重启手机？</string>
+    <string name="dialog_yes">确定</string>
+    <string name="dialog_no">取消</string>
+    <string name="dialog_reboot">请在稍晚些时刻手动重启手机</string>
+    <string name="donate_title">请我喝可乐</string>
+    <string name="donate_summary">如果觉得ROM做的还不错，那就请我喝一罐可乐吧:)</string>
+    <string name="donate_link">https://qr.alipay.com/9972778039134201</string>
+    <string name="find_nubia_camera">检测到系统正在使用努比亚相机，请同时在努比亚相机设置中关闭相机声音</string>
+    <string name="power_sound_title">充电声音</string>
+    <string name="power_sound_summary_off">充电插拔声音及低电量提示音已禁用！</string>
+    <string name="power_sound_summary_on">充电插拔声音及低电量提示音已启用！</string>
+    <string name="sounds">声音设置</string>
+    <string name="screenshot_sound_title">截屏声音</string>
+    <string name="screenshot_sound_summary_off">截屏声音已禁用！</string>
+    <string name="screenshot_sound_summary_on">截屏声音已启用！</string>
+
+<!--GaHoKwan ADD-->
+    <!--附加设置-->
+    <string name="gestures">黑屏操作</string>
+    <string name="key">按键设置</string>
+    <string name="screen">屏幕设置</string>
+    <string name="tweak">系统优化</string>
+    <string name="others">其他</string>
+
+    <!--中兴屏幕助手-->
+    <string name="mipop">虚拟按键</string>
+
+  <!--CABC自适应背光-->
+    <string name="cabc_summary_head">自适应背光控制</string>
+
+  <!--mDNle模式-->
+    <string name="mdnie_mode_summary_head">设置 mDNIe 模式</string>
+    <string name="mdnie_mode_title_head">模式</string>
+    <string name="mdnie_scenario_summary_head">设置 mDNIe 场景</string>
+    <string name="mdnie_scenario_title_head">场景</string>
+    <string name="mdnie_outdoor_title_head">户外模式</string>
+    <string name="mdnie_outdoor_summary_head">启用/禁用户外模式</string>
+
+    <!--震动强度-->
+    <string name="defaults_button">默认值</string>
+    <string name="vibrator_tuning_summary_head">调整按键振动的强度</string>
+    <string name="vibrator_tuning_title">振动强度</string>
+    <string name="vibrator_warning">不推荐振动强度大于 %1$d</string>
+
+    <!--屏幕唤醒模式-->
+    <string name="wakeup_mode">屏幕唤醒</string>
+    <string name="wakeup_mode_summary_0">当前模式：禁用</string>
+    <string name="wakeup_mode_summary_1">当前模式：滑动</string>
+    <string name="wakeup_mode_summary_2">当前模式：滑动（充电时）</string>
+    <string name="wakeup_mode_summary_3">当前模式：双击</string>
+    <string name="wakeup_mode_summary_4">当前模式：双击（充电时）</string>
+    <string name="wakeup_mode_summary_5">当前模式：滑动+双击</string>
+    <string name="wakeup_mode_summary_6">当前模式：滑动+双击（充电时）</string>
+
+  <!--LED灯亮度-->
+    <string name="led_intensity">LED灯亮度</string>
+    <string name="led_intensity_summary_0">当前亮度：40</string>
+    <string name="led_intensity_summary_1">当前亮度：30</string>
+    <string name="led_intensity_summary_2">当前亮度：20</string>
+    <string name="led_intensity_summary_3">当前亮度：10</string>
+    <string name="led_intensity_summary_4">当前亮度：5</string>
+    <string name="led_intensity_summary_5">当前亮度：1</string>
+
+  <!--LED灯模式-->
+    <string name="led_fade">呼吸式LED灯</string>
+    <string name="led_fade_on_summary_head">当前模式：呼吸</string>
+    <string name="led_fade_off_summary_head">当前模式：闪烁</string>
+
+    <!--护目模式-->
+    <string name="kcal_title_head">护目模式</string>
+    <string name="kcal_summary_0">当前模式：正常</string>
+    <string name="kcal_summary_1">当前模式：一级护目</string>
+    <string name="kcal_summary_2">当前模式：二级护目</string>
+    <string name="kcal_summary_3">当前模式：三级护目</string>
+    <string name="kcal_summary_4">当前模式：四级护目</string>
+
+    <!--屏幕颜色-->
+    <string name="kcal_sat_title_head">屏幕颜色</string>
+    <string name="kcal_sat_summary_head">选择屏幕颜色显示模式</string>
+    <string name="kcal_sat_summary_0">当前模式：正常</string>
+    <string name="kcal_sat_summary_1">当前模式：灰阶</string>
+    <string name="kcal_sat_summary_2">当前模式：艳丽</string>
+    <string name="kcal_invert_title_head">屏幕反色</string>
+
+    <!--手套模式-->
+    <string name="glove_mode_title_head">手套模式</string>
+    <string name="glove_mode_summary_head">提高触摸屏灵敏度</string>
+
+    <!--快速充电-->
+    <string name="charge">快速充电</string>
+    <string name="charge_warning_dialog_message">充电时产生过高的温度可能会导致设备损坏，打开快速充电后请将手机处于通风状态！</string>
+
+    <!--运行模式-->
+    <string name="running_mode">运行模式</string>
+    <string name="running_mode_summary_battery">当前模式：省电模式</string>
+    <string name="running_mode_summary_standard">当前模式：均衡模式</string>
+    <string name="running_mode_summary_performance">当前模式：性能模式</string>
+    <string name="performance_warning_dialog_message">性能模式时产生过高的温度可能会导致设备损坏，请注意！</string>
+
+    <!--按键灯模式-->
+    <string name="keylight_title_head">按键灯模式</string>
+    <string name="keylight_summary_0">当前模式：禁用按键灯</string>
+    <string name="keylight_summary_1">当前模式：触摸屏幕时点亮按键灯</string>
+    <string name="keylight_summary_2">当前模式：触摸屏幕按键时点亮按键灯</string>
+
+    <!--按键灯超时-->
+    <string name="keylight_timeout_title_head">按键灯持续时间</string>
+    <string name="keylight_timeout_summary_0">当前：1秒</string>
+    <string name="keylight_timeout_summary_1">当前：5秒</string>
+    <string name="keylight_timeout_summary_2">当前：10秒</string>
+    <string name="keylight_timeout_summary_3">当前：20秒</string>
+    <string name="keylight_timeout_summary_4">当前：一直点亮</string>
+	
+    <!--系统更新-->
+    <string name="updater_notice_title">提醒</string>
+    <string name="updater_notice_message">默认下载目录在Download！</string>
+    <string name="updater_check">检查系统更新</string>
+    <string name="updater_check_summary">检查更新</string>
+    <string name="updater_flash">选择下载好的刷机包更新</string>
+    <string name="updater_flash_summary">选择刷机包</string>
+    <string name="updater_choose_abort">请选择ZIP后缀的刷机包！</string>
+    <string name="updater_ok">好的,请继续!</string>
+<!--GaHoKwan END-->
+</resources>

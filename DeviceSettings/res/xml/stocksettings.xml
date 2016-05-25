@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+		android:title="@string/gestures"
+		android:key="gesture">
+        <ListPreference
+			android:title="@string/wakeup_mode"
+			android:key="wakeup_mode"
+			android:defaultValue="0"
+			android:entryValues="@array/wakeup_mode_entries_values" />
+        <ListPreference
+			android:title="@string/led_fade"
+			android:key="led_fade"
+			android:defaultValue="1"
+			android:entryValues="@array/led_fade_entries_values" />
+        <ListPreference
+			android:title="@string/led_intensity"
+			android:key="led_intensity"
+			android:defaultValue="0"
+			android:entryValues="@array/led_intensity_entries_values" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/tweak" android:key="tweak">
+		<CheckBoxPreference
+			android:title="@string/charge"
+			android:key="charge"
+			android:defaultValue="false" />
+		<ListPreference
+			android:title="@string/running_mode"
+			android:key="running_mode"
+			android:defaultValue="1"
+			android:entryValues="@array/running_mode_entries_values" />
+		<PreferenceScreen
+			android:title="@string/boeffla_settings_title"
+			android:key="boeffla_settings_key" >
+			<intent
+				android:action="android.intent.action.MAIN"
+				android:targetClass="de.andip71.boeffla_config_v2.MainActivity"
+				android:targetPackage="de.andip71.boeffla_config_v2">
+			</intent>
+		</PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/key">
+		<CheckBoxPreference
+			android:title="@string/double_tap_home_to_sleep_title"
+			android:key="double_tap_home_to_sleep_key" />
+		<ListPreference
+			android:title="@string/keylight_title_head"
+			android:key="keylight"
+			android:defaultValue="1"
+			android:entryValues="@array/keylight_entries_values" />
+		<ListPreference
+			android:title="@string/keylight_timeout_title_head"
+			android:key="keylight_timeout"
+			android:defaultValue="1"
+			android:entryValues="@array/keylight_timeout_entries_values" />
+		<com.luo2888.devicesettings.VibratorTuningPreference
+			android:title="@string/vibrator_tuning_title"
+			android:key="vibrator_tuning"
+			android:dialogTitle="@string/vibrator_tuning_title" />
+		<Preference android:title="@string/mipop">
+			<intent
+				android:targetPackage="com.android.mipop"
+				android:action="android.intent.action.MAIN"
+				android:targetClass="com.android.mipop.MIPopActivity" />
+		</Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/screen" android:key="screen">
+		<ListPreference
+			android:title="@string/kcal_title_head"
+			android:key="kcal"
+			android:defaultValue="0"
+			android:entryValues="@array/kcal_entries_values" />
+		<ListPreference
+			android:title="@string/kcal_sat_title_head"
+			android:key="kcal_sat"
+			android:summary="@string/kcal_sat_summary_head"
+			android:defaultValue="0"
+			android:entryValues="@array/kcal_sat_entries_values" />
+		<CheckBoxPreference
+			android:title="@string/glove_mode_title_head"
+			android:key="glove_mode"
+			android:summary="@string/glove_mode_summary_head"
+			android:defaultValue="false" />
+		<com.luo2888.devicesettings.CABC
+			android:title="@string/cabc_title_head"
+			android:key="cabc"
+			android:summary="@string/cabc_summary_head"
+			android:defaultValue="true" />
+		<com.luo2888.devicesettings.mDNIeScenario
+			android:entries="@array/mdnie_scenario_entries"
+			android:title="@string/mdnie_scenario_title_head"
+			android:key="mdnie_scenario"
+			android:summary="@string/mdnie_scenario_summary_head"
+			android:defaultValue="0"
+			android:entryValues="@array/mdnie_scenario_entries_values" />
+		<com.luo2888.devicesettings.mDNIeMode
+			android:entries="@array/mdnie_mode_entries"
+			android:title="@string/mdnie_mode_title_head"
+			android:key="mdnie_mode"
+			android:summary="@string/mdnie_mode_summary_head"
+			android:defaultValue="0"
+			android:entryValues="@array/mdnie_mode_entries_values" />
+		<CheckBoxPreference
+			android:title="@string/mdnie_outdoor_title_head"
+			android:key="mdnie_outdoor"
+			android:summary="@string/mdnie_outdoor_summary_head"
+			android:defaultValue="false" />
+		<CheckBoxPreference
+			android:title="@string/kcal_invert_title_head"
+			android:key="kcal_invert"
+			android:defaultValue="false" />
+		<EditTextPreference
+			android:digits="1234567890"
+			android:key="density_key"
+			android:title="@string/density_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/others" android:key="others">
+		<PreferenceScreen
+			android:title="@string/sounds" >
+			<intent
+				android:action="android.intent.action.main"
+				android:targetClass="com.luo2888.devicesettings.Sounds"
+				android:targetPackage="com.luo2888.devicesettings"/>
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:title="@string/updater_check"
+			android:summary="@string/updater_check_summary">
+			<intent
+				android:action="android.intent.action.main"
+				android:targetClass="com.ota.updates.activities.MainActivity"
+				android:targetPackage="com.ota.updates"/>
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:title="@string/updater_flash"
+			android:key="flashota"
+			android:summary="@string/updater_flash_summary" />
+			
+		<ListPreference
+			android:defaultValue="2"
+			android:key="camera_switch_key"
+			android:title="@string/camera_switch_title"/>
+
+		<ListPreference
+			android:defaultValue="0"
+			android:title="@string/home_layout_switch_title"
+			android:key="home_layout_switch_key" />
+
+		<Preference
+			android:summary="@string/donate_summary"
+			android:title="@string/donate_title">
+			<intent
+				android:action="android.intent.action.VIEW"
+				android:data="@string/donate_link" />
+		</Preference>
+		<Preference
+			android:summary="© 2016 MIUI Tools | Powered by Xs | Edit by GaHoKwan"
+			android:title="@string/about_title"
+			android:key="about_key" >
+			<intent
+			android:action="android.intent.action.VIEW"
+			android:data="http://weibo.com/kwangaho" />
+		</Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
